@@ -1,0 +1,14 @@
+<!-- Filename: index.html -->
+<html>
+    <head>
+        <link rel='stylesheet' href='/static/index.css'>
+    </head>
+    <body>
+        {% if gender == 'Female' %}
+          <h3><u>Hello Miss {{name}}!</u></h3>
+        {% else %}
+          <h3><u>Hello Mr. {{name}}!</u></h3>
+        {% endif %}
+        <p>I'm a rendered webpage from the templates folder.</p>
+    </body>
+</html>

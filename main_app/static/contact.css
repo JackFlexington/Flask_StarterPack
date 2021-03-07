@@ -1,0 +1,15 @@
+/* Filename: contact.css */
+body {
+    background: rgb(69, 166, 196);
+}
+h3 {
+    color: goldenrod;
+}
+
+form {
+    margin: 2%;
+}
+
+div {
+    margin: 2% 0;
+}
